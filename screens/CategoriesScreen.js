@@ -3,6 +3,7 @@ import { CATEGORIES } from "../data/dummy-data";
 import { FlatList } from "react-native";
 
 function CategoriesScreen({ navigation }) {
+
   function renderCategoryItem(itemData) {
     function pressHandler() {
       navigation.navigate("MealsOverview", {
@@ -17,6 +18,7 @@ function CategoriesScreen({ navigation }) {
       />
     );
   }
+  
   return (
     <FlatList
       data={CATEGORIES}
