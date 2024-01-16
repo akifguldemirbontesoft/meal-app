@@ -36,7 +36,6 @@ function DrawerNavigator() {
 export default function App() {
   return (
     <>
-    asa
       <StatusBar style="dark" />
       <NavigationContainer>
         <Stack.Navigator
